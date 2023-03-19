@@ -1,2 +1,2 @@
 #!/bin/bash
-Sort | uniq -u
+cut -d ":" -f 1,6 /etc/passwd
